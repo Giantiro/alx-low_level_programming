@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - print numbers from 00 to 99
  * Return: Always 0 (Success)
@@ -7,6 +8,7 @@ int main(void)
 {
 	int i = '0';
 	int j = '0';
+
 	while (i <= '9')
 	{
 		while (j <= '9')
