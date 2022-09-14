@@ -1,18 +1,18 @@
-#include <stdio.h>
 #include "main.h"
-
+#include <stdio.h>
 /**
  * _abs - Computes the absolute value of an integer
- * @n: the integer to be converted.
+ * @n: the integer to check.
  * Return: absolute value of int
  */
 int _abs(int n)
 {
-	int n;
-
-	printf("Enter a positive or negative number\n");
-	scanf("%d", &n);
-
-	printf("Absolute value of %d is %d\n", n, abs(int));
-	return (0);
+	if (n <= 0)
+	{
+		return (n);
+	}
+	else
+	{
+		return (n);
+	}
 }
