@@ -8,9 +8,11 @@
  */
 int _abs(int n)
 {
-	printf("Enter a positive or negative number\n");
-	scanf("%d", &num);
+	int n;
 
-	printf("Absolute value of %d is %d\n", num, abs(num));
+	printf("Enter a positive or negative number\n");
+	scanf("%d", &n);
+
+	printf("Absolute value of %d is %d\n", n, abs(int));
 	return (0);
 }
