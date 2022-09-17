@@ -8,32 +8,18 @@
 
 void print_number(int n)
 {
-	long len, res, i, temp, expo;
-
-	res = n;
-	expo = len = 1;
-	/*Check negatives*/
-	if (res < 0)
+	for n = 0
 	{
-		res *= -1;
-		_putchar('-');
+		_putchar('0');
 	}
-
-	/**/
-	temp = res;
-	while (temp >= 10)
+	if (n < 0)
 	{
-		len++;
-		temp /= 10;
+		_putchar(n * -1);
 	}
-	/*Create Exponent*/
-	for (i = 1; i < len; i++)
-		expo *= 10;
-	/*Main */
-	while (expo > 1)
+	else
 	{
-		_putchar((res / expo) % 10 + '0');
-		expo /= 10;
+		_putchar(n);
 	}
-	_putchar(res % 10 + '0');
+	_putchar('\n');
 }
+
