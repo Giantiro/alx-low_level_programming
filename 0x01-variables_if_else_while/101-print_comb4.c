@@ -9,15 +9,15 @@ int main(void)
 
 	for (i = 0; i < 8; i++)
 	{
-		for (d2 = d1 + 1; d2 < 9; d2++)
+		for (j = i + 1; j < 9; j++)
 		{
-			for (d3 = d2 + 1; d3 < 10; d3++)
+			for (k = j + 1; k < 10; k++)
 			{
-				putchar((d1 % 10) + '0');
-				putchar((d2 % 10) + '0');
-				putchar((d3 % 10) + '0');
+				putchar((i % 10) + '0');
+				putchar((j % 10) + '0');
+				putchar((k % 10) + '0');
 
-				if (d1 == 7 && d2 == 8 && d3 == 9)
+				if (i == 7 && j == 8 && k == 9)
 					continue;
 
 				putchar(',');
