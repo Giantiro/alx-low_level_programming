@@ -11,7 +11,7 @@ void print_number(int n)
 	long len, res, i, temp, expo;
 
 	res = n;
-	expo = len =  1;
+	expo = len = 1;
 	/*Check negatives*/
 	if (res < 0)
 	{
