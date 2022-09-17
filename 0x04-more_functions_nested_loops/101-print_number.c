@@ -8,9 +8,32 @@
 
 void print_number(int n)
 {
-	if (n <= '0'; n >= '0'; n++)
+	long len, res, i, temp, expo;
+
+	res = n;
+	expo = len =  1;
+	/*Check negatives*/
+	if (res < 0)
 	{
-		_putchar(n);
+		res *= -1;
+		_putchar('-');
 	}
-	_putchar('\n');
+
+	/**/
+	temp = res;
+	while (temp >= 10)
+	{
+		len++;
+		temp /= 10;
+	}
+	/*Create Exponent*/
+	for (i = 1; i < len; i++)
+		expo *= 10;
+	/*Main */
+	while (expo > 1)
+	{
+		_putchar((res / expo) % 10 + '0');
+		expo /= 10;
+	}
+	_putchar(res % 10 + '0');
 }
