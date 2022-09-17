@@ -4,7 +4,7 @@
  * The package should run on size 32
  * The package should run on size 64
  *
- * Return: Always 0 (Success)
+ * Return: Nothing
  */
 int main(void)
 {
