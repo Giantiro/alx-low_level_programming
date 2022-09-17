@@ -5,19 +5,19 @@
  */
 int main(void)
 {
-	int i, j k;
+	int d1, d2, d3;
 
-	for (i = 0; i < 8; i++)
+	for (d1 = 0; d1 < 8; d1++)
 	{
-		for (j = i + 1; j < 9; j++)
+		for (d2 = d1 + 1; d2 < 9; d2++)
 		{
-			for (k = j + 1; k < 10; k++)
+			for (d3 = d2 + 1; d3 < 10; d3++)
 			{
-				putchar((i % 10) + '0');
-				putchar((j % 10) + '0');
-				putchar((k % 10) + '0');
+				putchar((d1 % 10) + '0');
+				putchar((d2 % 10) + '0');
+				putchar((d3 % 10) + '0');
 
-				if (i == 7 && j == 8 && k == 9)
+				if (d1 == 7 && d2 == 8 && d3 == 9)
 					continue;
 
 				putchar(',');
