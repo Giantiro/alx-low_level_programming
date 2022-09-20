@@ -8,16 +8,7 @@
 
 void print_number(int n)
 {
-	for n = 0
-	{
-		_putchar('0');
-	}
-	if (n < 0)
-	{
-		_putchar(n * -1);
-	}
-	else
-	{
+	for (n)
 		_putchar(n);
 	}
 	_putchar('\n');
