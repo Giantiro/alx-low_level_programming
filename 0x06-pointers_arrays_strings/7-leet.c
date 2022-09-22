@@ -11,6 +11,7 @@ char *leet(char *s)
 	char *M = "AEOTL";
 	int x[] = {'4', '3', '0', '7', '1'};
 	int i;
+	char *p = s
 
 	while (*s != '\0')
 	{
