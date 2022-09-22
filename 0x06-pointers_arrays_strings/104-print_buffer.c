@@ -1,10 +1,12 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdio.h>
 
 /**
- * print_buffer - function that prints a buffer
- * @b: The buffer to print
- * @size: The size of the buffer
+ * print_buffer - prints string buffer
+ * @b: the buffer
+ * @size: size of buffer to print
+ *
+ * Return: void
  */
 void print_buffer(char *b, int size)
 {
